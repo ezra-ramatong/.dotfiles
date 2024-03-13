@@ -1,0 +1,21 @@
+{
+    // General Settings
+
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+
+
+    "margin-top": 10,
+    //"margin-right": 10,
+    //"margin-bottom": 10,
+    //"margin-left": 10,
+    "spacing": 15,
+
+    // Modules
+    "include": ["~/.config/waybar/modules.json"],
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    //"modules-center": ["custom"],
+    "modules-right": ["custom/updates", "pulseaudio", "backlight","network", "battery", "clock" ],
+
+}

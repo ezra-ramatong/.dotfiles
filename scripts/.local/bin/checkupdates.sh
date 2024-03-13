@@ -12,7 +12,7 @@ aur_count=$(yay -Qum | wc -l)
 # Pacman
 if [[ $pac_count -gt 0 ]]; then
   echo -e "${BLUE}$(checkupdates)"
-  echo -e "${BLUE}󰮯 Pacman: $pac_count packages need to be updated.\n"
+  echo -e "${BLUE}󰮯 Pacman updates pending: $pac_count\n"
 else
   echo -e "${BLUE}󰮯 Pacman: Up to date!\n"
 fi
@@ -20,7 +20,7 @@ fi
 # AUR
 if [[ $aur_count -gt 0 ]]; then
   echo -e "${PURPLE}$(yay -Qum)"
-  echo -e "${PURPLE} AUR: $aur_count packages need to be updated."
+  echo -e "${PURPLE} AUR updates pending: $aur_count"
 else
   echo -e "${PURPLE} AUR: Up to date!"
 fi

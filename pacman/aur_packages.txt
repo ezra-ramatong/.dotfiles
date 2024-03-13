@@ -1,0 +1,5 @@
+hyprlock-git
+nerd-fonts-inter
+networkmanager-dmenu-git
+yay
+yay-debug

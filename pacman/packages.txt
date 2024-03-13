@@ -49,6 +49,7 @@ stow
 sudo
 swaybg
 texinfo
+tmux
 tree
 ttf-hack-nerd
 ttf-jetbrains-mono-nerd

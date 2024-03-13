@@ -27,6 +27,7 @@ alias szsh='exec zsh'
 # Package Managers
 
 alias cu='~/.local/bin/checkupdates.sh' # check updates
+alias upl='~/.local/bin/update-package-list.sh' # update package lists
 
 # Pacman
 alias pac='sudo pacman -S'

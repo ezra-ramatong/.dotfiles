@@ -1,4 +1,5 @@
 hyprlock-git
+megasync-bin
 nerd-fonts-inter
 networkmanager-dmenu-git
 yay

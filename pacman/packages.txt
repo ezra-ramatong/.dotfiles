@@ -18,6 +18,7 @@ fzf
 git
 grim
 grub
+htop
 hyprland
 intel-ucode
 kitty

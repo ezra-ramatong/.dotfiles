@@ -31,8 +31,10 @@ meson
 nano
 nautilus
 neovim
+network-manager-applet
 networkmanager
 noto-fonts-emoji
+nwg-look
 openssh
 os-prober
 pacman-contrib

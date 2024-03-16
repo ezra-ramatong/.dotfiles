@@ -1,5 +1,6 @@
+android-studio
 hyprlock-git
-megasync-bin
+hyprpicker
 nerd-fonts-inter
 networkmanager-dmenu-git
 yay

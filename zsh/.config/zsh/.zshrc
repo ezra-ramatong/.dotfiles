@@ -27,7 +27,7 @@ zstyle :compinstall filename '/home/ezra/.config/zsh/.zcompdump'
 # Options
 autoload -Uz colors && colors
 setopt PROMPT_SUBST
-PROMPT='%B%F{yellow}%F{yellow}ezra%f %F{red}on%f %B%F{blue}󰇧 %f%b %F{green}%B:%b%f '
+PROMPT='%B%F{yellow}%F{yellow}Ezra%f %F{red}on%f %B%F{blue}󰇧 %f%b %F{green}%B:%b%f '
 RPROMPT='%F{blue}%~%f %F{red} ${vcs_info_msg_0_}%f'
 HISTFILE=~/.config/zsh/.histfile
 HISTSIZE=100000

@@ -7,7 +7,7 @@ export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc-2.0"
 # Default Programs
 export EDITOR="nvim"
 export VISUAL="$EDITOR"
-export TERMINAL="wezterm"
+export TERMINAL="alacritty"
 export BROWSER="firefox"
 export GIT_EDITOR="$EDITOR"
 

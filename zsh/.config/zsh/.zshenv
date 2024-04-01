@@ -10,6 +10,7 @@ export VISUAL="$EDITOR"
 export TERMINAL="alacritty"
 export BROWSER="firefox"
 export GIT_EDITOR="$EDITOR"
+export QT_QPA_PLATFORMTHEME="qt6ct"
 
 # Fzf
 #export FZF_DEFAULT_COMMAND='fd . --hidden --exclude ".git"'

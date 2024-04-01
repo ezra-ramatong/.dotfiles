@@ -51,4 +51,8 @@ export NVM_DIR="$HOME/.nvm"
 source $HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # must be last
 
+# Startup Greetings
+~/.local/bin/greetings Ezra
+~/.local/bin/pithy
+
 #eval "$(zoxide init --cmd cd zsh)"

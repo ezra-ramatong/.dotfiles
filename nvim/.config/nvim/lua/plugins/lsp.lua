@@ -28,7 +28,11 @@ function M.config()
 		gopls = {},
 		emmet_ls = {},
 		pyright = {},
-		clangd = {},
+		clangd = {
+			init_options = {
+				compilationDatabasePath = "./Debug",
+			},
+		},
 		marksman = {},
 	}
 

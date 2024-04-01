@@ -67,9 +67,9 @@ function M.config()
 					"md",
 					"txt",
 				},
-				extra_args = { --[[ "--no-semi", ]]
-					"--single-quote",
-				},
+				-- extra_args = { --[[ "--no-semi", ]]
+				-- "--single-quote",
+				-- },
 			}),
 			formatting.gofumpt,
 			diagnostics.golangci_lint,

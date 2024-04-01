@@ -102,10 +102,10 @@ map("n", "<Space>bw", "<Cmd>BufferOrderByWindowNumber<CR>", { silent = true, des
 
 -- --------------------------------------------------------------------------------------------------------------------
 -- CMake
---[[ map("", "<leader>cmg", ":CMakeGenerate<cr>", {})
+map("", "<leader>cmg", ":CMakeGenerate<cr> <cr>", {})
 map("", "<leader>cmb", ":CMakeBuild<cr>", {})
-map("", "<leader>cmc", ":CMakeClose<cr>", {})
-map("", "<leader>cc", ":CMakeClean<cr>", {}) ]]
+--map("", "<leader>cmc", ":CMakeClose<cr>", {})
+--map("", "<leader>cc", ":CMakeClean<cr>", {})
 -- --------------------------------------------------------------------------------------------------------------------
 -- Cpp
 map("", "<leader>cc", ":w<cr>:!clang++ % -o %<.out <cr><cr>", { silent = true, noremap = true })

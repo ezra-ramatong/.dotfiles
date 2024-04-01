@@ -58,3 +58,6 @@ alias gs='git status'
 
 # Dunst
 alias dln='dunstctl history-pop'
+
+# Custom
+alias music='firefox "https://music.youtube.com"'

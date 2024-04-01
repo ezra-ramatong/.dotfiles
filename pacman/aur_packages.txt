@@ -3,5 +3,6 @@ hyprlock-git
 hyprpicker
 nerd-fonts-inter
 networkmanager-dmenu-git
+slack-desktop
+ttf-fragment-mono
 yay
-yay-debug

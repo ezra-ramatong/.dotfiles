@@ -16,5 +16,8 @@ export QT_QPA_PLATFORMTHEME="qt6ct"
 #export FZF_DEFAULT_COMMAND='fd . --hidden --exclude ".git"'
 #export FZF_DEFAULT_OPTS="-i --height=80% --border=rounded --preview=tree {}"
 
+# C++ Compiler ENV
+export CPLUS_INCLUDE_PATH="/home/ezra/Qt/6.7.0/gcc_64/include"
+
 # PATHS
 export PATH="$PATH:$HOME/.local/bin"

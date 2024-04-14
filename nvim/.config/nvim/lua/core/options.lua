@@ -14,8 +14,15 @@ opt.cindent = true
 opt.colorcolumn = "120"
 --opt.cursorline = true
 opt.expandtab = true
-opt.fillchars = { eob = " " }
-opt.formatoptions:append("t/")
+--opt.fillchars = { eob = " " }
+--opt.foldmethod = "expr"
+--opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+--opt.foldcolumn = "0"
+--opt.foldtext = ""
+--opt.foldlevel = 99
+--opt.foldlevelstart = 1
+--opt.foldnestmax = 4
+--opt.formatoptions:append("t/")
 --opt.guicursor = 'n-v-c-sm-i-ci-ve:block,r-cr-o:hor20,a:blinkon0-Cursor/lCursor'
 --opt.guifont = { "Hack Nerd Font", ":h20" }
 opt.history = 100

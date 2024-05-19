@@ -16,6 +16,6 @@
     "include": ["~/.config/waybar/modules.json"],
     "modules-left": ["hyprland/workspaces", "hyprland/window"],
     //"modules-center": ["custom"],
-    "modules-right": ["custom/updates", "pulseaudio", "backlight","network", "battery", "clock" ],
+    "modules-right": ["tray","custom/power","custom/updates", "pulseaudio", "backlight","network", "battery", "clock"],
 
 }

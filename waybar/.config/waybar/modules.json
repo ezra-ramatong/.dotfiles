@@ -104,5 +104,11 @@
   "tray": {
     "icon-size": 21,
     "spacing": 10
+  },
+
+  "custom/power": {
+    "format": "{icon}",
+    "format-icons": ["⏻"],
+    "on-click": "~/.config/waybar/powermenu_t1"
   }
 }

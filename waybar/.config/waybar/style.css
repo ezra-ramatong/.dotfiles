@@ -123,6 +123,14 @@ window#waybar.hidden {
   background: #61afef;
 }
 
+#tray {
+  padding: 0.5em;
+}
+
+#custom-power {
+  padding: 0 0.5em;
+}
+
 /* #custom-pacman.pending-updates {
   animation-name: blink-update;
   animation-duration: 3s;
